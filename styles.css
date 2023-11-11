@@ -1,0 +1,59 @@
+body {
+    background-color: #F4F4F4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling the header */
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F4F4F4;
+    padding: 10px 20px;
+    color: #353535;    /* Dark grey color */
+}
+
+/* Logo styling */
+.header .logo {
+    color: #353535;    /* Dark grey color */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation menu */
+.header .navigation {
+    list-style-type: none;
+    display: flex;
+}
+
+.header .navigation li {
+    padding: 0 15px;
+}
+
+.header .navigation li a {
+    text-decoration: none;
+    color: #353535;
+    transition: color 0.3s ease;
+}
+
+.header .navigation li a:hover {
+    color: #9e91c3; /* Light purple color */
+}
+
+/* Utility links */
+/* .header .utilities {
+    display: flex;
+    align-items: center;
+}
+
+.header .utilities a {
+    color: #353535;   
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header .utilities a:hover {
+    color: #9e91c3;   
+} */
